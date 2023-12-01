@@ -3,9 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/register.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <title>Register</title>
 </head>
 <body>
-    
+    <!-- popup area -->
+<button>Open Popup</button>
+
+<div class="mask">
+    <div class="register_page">
+        <!-- register -->
+        <img src="./pic/logo.svg" alt="" class="login_logo">
+        <h1>會員登入</h1>
+        <span class="title_line"></span>
+        <div class="register_main">
+            
+            <div class="register_content1">
+            <!-- content1 -->
+                <form>
+                    <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>姓名</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>電子信箱</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>電話</label>
+                    </div>
+                </form>
+                <div class="radio_selector">
+                    <p>性別</p>
+                    <label class="btn active">
+                         <input type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>男生</span>
+                    </label>
+                    <label class="btn">
+                        <input type="radio" name='gender1'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> 女生</span>
+                    </label>
+                </div>
+            </div>
+            <div class="register_content2">
+                <!-- content2 -->
+                    <form>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>密碼</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>確認密碼</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="date" name="" required="">
+                            <label>生日</label>
+                        </div>
+                    </form>
+                        
+                
+                <!-- subscribe&accept -->
+                <div class="checkbox2">
+                        <div class="subscibe_area">
+                            <input type="checkbox" id="subscribe_">
+                            <label for="subscribe_"></label>
+                            <p>訂閱店家優惠</p>
+                        </div>
+                        <div class="acception">
+                            <input type="checkbox" id="accept_">
+                            <label for="accept_"></label>
+                            <p>我已充分閱讀瞭解並同意隱私權政策及會員條款</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+            <!-- 2BUTTON -->
+            <div class="bt_2">
+                <ul>
+                    <li>
+                        <input type="submit" value="註冊新密碼" class="second_bt">
+                    </li>
+                    <li>
+                        <input type="submit" value="登入" class="main_bt">
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <!-- DASH+OR -->
+            <div class="dash_or">
+                <span class="dash_1"></span>
+                <p>Or</p>
+                <span class="dash_2"></span>
+            </div>
+
+            <!-- 快速登入 -->
+
+            <h2>快速登入</h2>
+            <div class="third_login">
+                <ul>
+                    <li>
+                        <img src="./pic/fb.png" alt="" class="pic">
+                    </li>
+                    <li>
+                        <img src=".//pic/google.png" alt="" class="pic">
+                    </li>
+                    <li>   
+                        <img src="./pic/line.png" alt="" class="pic">
+                    </li>
+                </ul>
+            </div>  
+        
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./Register.js"></script>
 </body>
 </html>

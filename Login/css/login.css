@@ -6,6 +6,7 @@ body{
     color: #613C11;
     line-height: 1.6;
     letter-spacing: 4%;
+    font-weight: bold;
 }
 /* 假button */
 button{
@@ -68,13 +69,14 @@ form{
     width: 240px;
     margin: 0 auto;
 }
-  .user-box {
-    position: relative;
-    width: 100%;
-    margin-top: 16px;
-  }
   
-  .user-box input {
+.user-box {
+    position: relative;
+    width: 90%;
+    margin-top: 16px;
+}
+  
+.user-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -84,8 +86,9 @@ form{
     border-bottom: 1px solid #613C11;
     outline: none;
     background: transparent;
-  }
-  .user-box label {
+}
+
+.user-box label {
     position: absolute;
     top:0;
     left: 0;
@@ -94,35 +97,35 @@ form{
     color: #613C11;
     pointer-events: none;
     transition: .5s;
-  }
+}
   
- .user-box input:focus ~ label,
-  .user-box input:valid ~ label {
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
     top: -20px;
     left: 0;
     color: #CFAD84;
     font-size: 12px;
-  }
+}
   
 
-  @keyframes btn-anim1 {
+@keyframes btn-anim1 {
     0% {
       left: -100%;
     }
     50%,100% {
       left: 100%;
     }
-  }
+}
   
  
-  @keyframes btn-anim2 {
+@keyframes btn-anim2 {
     0% {
       top: -100%;
     }
     50%,100% {
       top: 100%;
     }
-  }
+}
   
 
 h1{
@@ -155,12 +158,12 @@ p{
     font-size: 12px;
 }
 
-input.my_account,input.my_password{
+/* input.my_account,input.my_password{
     width: 200px;
     height: 20px;
     border: #CFAD84 1px solid;
     border-radius: 8px;
-}
+} */
 
 input::placeholder{
     color: darkgrey;
@@ -251,7 +254,7 @@ input.main_bt{
 .dash_or{
   width: 240px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
 }
 

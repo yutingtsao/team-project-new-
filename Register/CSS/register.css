@@ -1,0 +1,359 @@
+@import url('reset.css');
+body{
+    font-family: Roboto;
+    font-size: 14px;
+    color: #613C11;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 4%;
+}
+
+/* 假button */
+button{
+    display: block;
+    width: 300px;
+    height: 80px;
+    font-size: 2rem;
+    background-color: green;
+    color: white;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+  }
+  button:hover{
+    background-color: darkgreen;
+  }
+
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+/* register_page */
+.register_page{
+    width: 800px ;
+    height: 800px;
+    background-color: #fff;
+    border: #CFAD84 3px solid ;
+    border-radius: 8px;
+    position: absolute;
+    /* position: relative; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 50px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px 50px;
+}
+
+img.login_logo{
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin:0 auto;
+}
+
+h1{
+    margin-top: 16px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+span.title_line{
+    background-color:#CFAD84;
+    height: 2px;
+    width: 60px;
+    display: block;
+    margin: 0px auto 10px auto;
+}
+
+/* register_main */
+.register_main{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* register_content1 */
+.register_content1{
+    flex: 1 0 50%;
+
+}
+
+form{
+    width: 240px;
+    margin: 0 auto;
+}
+  
+.user-box {
+    position: relative;
+    width: 100%;
+    margin-top: 16px;
+}
+
+
+input[type="date"]::-webkit-datetime-edit {
+    visibility: hidden;
+}
+
+.user-box input {
+    width: 90%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #CFAD84;
+    border: none;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #613C11;
+    outline: none;
+    background: transparent;
+}
+
+.user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #613C11;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #CFAD84;
+    font-size: 12px;
+}
+  
+
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+}
+  
+ 
+@keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+}
+
+
+
+
+/* radio-selector */
+/* https://codepen.io/BrianSassaman/pen/AMMGGm */
+.radio_selector{
+    width: 240px;
+    margin: 24px auto 0 auto;
+    
+}
+.radio_selector ul{
+    display: flex;
+}
+
+.radio_selector p{
+    margin: 16px 0;
+}
+
+.btn.active{
+    margin-right: 16px;
+}
+
+i.fa.fa-dot-circle-o.fa-2x::before{
+    font-size: 20px;
+}
+i.fa.fa-circle-o.fa-2x::before{
+    font-size: 20px;
+}
+
+input[type="radio"] ~ i.fa.fa-circle-o{
+    color: #F1E7DB;    display: inline;
+}
+input[type="radio"] ~ i.fa.fa-dot-circle-o{
+    display: none;
+}
+input[type="radio"]:checked ~ i.fa.fa-circle-o{
+    display: none;
+}
+input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
+    color:#CFAD84;    display: inline;
+}
+span:hover input[type="radio"] ~ i.fa {
+color: #CFAD84;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+
+/* register_content2 */
+.register_content2{
+    flex: 1 0 50%;
+    justify-content: center;
+}
+/* checkbox */
+
+
+.checkbox2{
+    width: 240px;
+    margin: 24px auto 0 auto;
+}
+
+input[id="subscribe_"] + label {
+    margin: 8px 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #CFAD84;
+    border-radius: 4px;
+    /* cursor: pointer; */
+  }
+
+input[id="subscribe_"]:checked + label:after {
+    position: relative;
+    top: -4px;
+    left: 2px;
+    content: '\2714';
+    font-size: 14px;
+  }
+
+input[id="subscribe_"] {
+    display: none;
+}
+
+input[id="accept_"] + label {
+    margin: 8px 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #CFAD84;
+    border-radius: 4px;
+    /* cursor: pointer; */
+}
+
+input[id="accept_"]:checked + label:after {
+    position: relative;
+    top: -4px;
+    left: 2px;
+    content: '\2714';
+    font-size: 14px;
+}
+
+input[id="accept_"] {
+    display: none;
+}
+
+/* 2button */
+.bt_2{
+    width: 240px;
+    margin: 72px auto 32px auto;
+}
+.bt_2 ul{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 240px;
+}
+
+.bt_2 li{
+    width: 100px;
+}
+
+input.second_bt{
+    
+    border: 1px solid #CFAD84;
+    background-color: #fff;
+    color: #CFAD84;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 32px;
+    width: 100%;
+}
+
+input.main_bt{
+    
+    background-color: #CFAD84;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 32px;
+    width: 100%;
+}
+
+/* DASH+OR */
+.dash_or{
+  width: 624px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.dash_1{
+  /* background-color: #CFAD84; */
+  width: 250px;
+  height: 20px;
+  border-bottom: 3px dashed #CFAD84;
+  display: inline-block;
+}
+.dash_2{
+  /* background-color: #CFAD84; */
+  width: 250px;
+  height: 20px;
+  border-bottom: 3px dashed #CFAD84;
+  display: inline-block;
+}
+
+.dash_or p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* 快速登入 */
+h2{
+  margin: 16px auto;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.third_login{
+    text-align: center;
+}
+
+.third_login ul{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.third_login li{
+  margin: 16px 32px;
+  width: 30px;
+  height: 30px;
+}
+
+img.pic{
+  width: 30px;
+  height: 30px;
+}
