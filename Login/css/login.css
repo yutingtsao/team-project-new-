@@ -9,7 +9,7 @@ body{
     font-weight: bold;
 }
 /* 假button */
-button{
+button.fake_bt{
     display: block;
     width: 300px;
     height: 80px;
@@ -53,8 +53,9 @@ button{
 }
 
 .login_main{
-    width: 100%;
+    width: 216px;
     height: 100%;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -194,14 +195,14 @@ input[id="remember_"] + label {
 
   li p:nth-child(3){
     position: absolute;
-    left: 50px;
-    top: 268px;
+    left: 23px;
+    top: 276px;
   }
 
   input.forgot_p{
     position: absolute;
-    top: 278px;
-    left: 206px;
+    top: 285px;
+    left: 157px;
     font-size: 12px;
     border: none;
     background-color: #fff;
@@ -216,31 +217,33 @@ input[id="remember_"] + label {
 
   }
 
-.bt_2 ul{
+  .bt_2 ul{
     display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-    width: 240px;
-    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 216px;
 }
 
 .bt_2 li{
-    margin: 20px 0 16px 0;
     width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    
 }
 
-input.second_bt{
-    
+.second_bt{
     border: 1px solid #CFAD84;
     background-color: #fff;
     color: #CFAD84;
     border-radius: 8px;
     font-size: 14px;
     height: 32px;
-    width: 100%;
+    width: 80px;
+    margin: 16px auto;
+    padding: 0;
 }
 
-input.main_bt{
+.main_bt{
     
     background-color: #CFAD84;
     color: #fff;
@@ -248,11 +251,13 @@ input.main_bt{
     border-radius: 8px;
     font-size: 14px;
     height: 32px;
-    width: 100%;
+    margin: 16px auto;
+    width: 80px;
+    text-align: center;
 }
 
 .dash_or{
-  width: 240px;
+  width: 216px;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
@@ -261,7 +266,7 @@ input.main_bt{
 .dash_1{
   height: 3px;
   /* background-color: #CFAD84; */
-  width: 100px;
+  width: 80px;
   height: 20px;
   border-bottom: 3px dashed #CFAD84;
   display: inline-block;
@@ -269,7 +274,7 @@ input.main_bt{
 .dash_2{
   height: 3px;
   /* background-color: #CFAD84; */
-  width: 100px;
+  width: 80px;
   height: 20px;
   border-bottom: 3px dashed #CFAD84;
   display: inline-block;
