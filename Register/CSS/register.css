@@ -214,10 +214,27 @@ input[type="radio"]{
 }
 /* checkbox */
 
-
 .checkbox2{
     width: 240px;
-    margin: 24px auto 0 auto;
+    margin: 36px auto 0 auto;
+
+}
+
+.subscribe_area{
+    position: relative;
+}
+
+.text1 p{
+    position: absolute;
+    left: 460px;
+    top: 414px;
+}
+
+.text2 p{
+    position: absolute;
+    width:160px;
+    left: 460px;
+    top: 438px;
 }
 
 input[id="subscribe_"] + label {
