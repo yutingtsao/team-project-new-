@@ -73,7 +73,7 @@ span.title_line{
     height: 2px;
     width: 60px;
     display: block;
-    margin: 0px auto 10px auto;
+    margin: 0px auto 20px auto;
 }
 
 /* register_main */
@@ -284,31 +284,34 @@ input[id="accept_"] {
 /* 2button */
 .bt_2{
     width: 240px;
-    margin: 72px auto 32px auto;
+    margin: 32px auto 16px auto;
 }
+
 .bt_2 ul{
     display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
     width: 240px;
+    margin: 0 auto;
 }
 
 .bt_2 li{
-    width: 100px;
+    width:100%;
+    margin: 0 44px;
 }
 
-input.second_bt{
-    
+.second_bt{
     border: 1px solid #CFAD84;
     background-color: #fff;
     color: #CFAD84;
     border-radius: 8px;
     font-size: 14px;
     height: 32px;
-    width: 100%;
+    width: 100px;
+    margin: 16px auto;
 }
 
-input.main_bt{
+.main_bt{
     
     background-color: #CFAD84;
     color: #fff;
@@ -316,8 +319,11 @@ input.main_bt{
     border-radius: 8px;
     font-size: 14px;
     height: 32px;
-    width: 100%;
+    margin: 16px auto;
+    width: 100px;
+    text-align: center;
 }
+
 
 /* DASH+OR */
 .dash_or{
