@@ -24,7 +24,7 @@ $('.main_bt').click(function() {
         updateCountdown();
         if (seconds === 0) {
             clearInterval(countdownInterval); 
-            window.location.href = 'https://www.google.com.tw/?hl=zh_TW';
+            window.location.href = './login.html';
         }
     }, 1000);
     
