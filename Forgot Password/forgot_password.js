@@ -22,7 +22,7 @@ $('.mask').click(function(){
     $(this).removeAttr('style')
 })
 
-$('.login_page').click(function(e){
+$('.register_page').click(function(e){
     e.stopPropagation()
 })
 
