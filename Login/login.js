@@ -1,4 +1,5 @@
 
+
 var main_bt = document.querySelector('.main_bt');
 main_bt.addEventListener('click',function(){
     window.location.href = 'https://www.google.com.tw/?hl=zh_TW'; // 在这里指定您想要跳转的 URL
@@ -26,4 +27,8 @@ $('.login_page').click(function(e){
     e.stopPropagation()
 })
 
-
+// 還在處理這一段
+$('.forgot_p').click(function(){
+    $('.login_page').hide()
+    
+})
