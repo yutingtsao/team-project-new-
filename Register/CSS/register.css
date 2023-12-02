@@ -53,11 +53,21 @@ button{
     padding: 10px 50px;
 }
 
+.bi.bi-x{
+    font-size: 48px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    line-height: 1;
+    color: #613C11;
+  }
+
 img.login_logo{
     width: 216px;
     height: 150px;
     display: block;
-    margin: 0 auto 12px auto;
+    margin: 0 auto;
 }
 
 h1{
@@ -225,14 +235,14 @@ input[type="radio"]{
 .text1 p{
     position: absolute;
     left: 460px;
-    top: 430px;
+    top: 459px;
 }
 
 .text2 p{
     position: absolute;
     width:160px;
     left: 460px;
-    top: 456px;
+    top: 486px;
 }
 
 input[id="subscribe_"] + label {

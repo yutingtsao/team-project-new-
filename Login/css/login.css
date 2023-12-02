@@ -51,6 +51,16 @@ button.fake_bt{
     margin: 0 auto;
 }
 
+.login_page i{
+  font-size: 48px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  line-height: 1;
+  color: #613C11;
+}
+
 .login_main{
     width: 216px;
     height: 100%;
@@ -207,6 +217,7 @@ input[id="remember_"] + label {
     border: none;
     background-color: #fff;
     color: #613C11;
+    font-weight: bold;
   }
 
   input.forgot_p:hover{
