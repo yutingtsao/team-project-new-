@@ -36,8 +36,8 @@ button.fake_bt{
 }
 
 .login_page{
-    width: 400px ;
-    height: 530px;
+    width: 500px ;
+    height: 630px;
     background-color: #fff;
     border: #CFAD84 3px solid ;
     border-radius: 8px;
@@ -48,6 +48,7 @@ button.fake_bt{
     transform: translate(-50%, -50%);
     padding: 10px 50px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .login_main{
@@ -58,10 +59,11 @@ button.fake_bt{
 }
 
 img.login_logo{
-    width: 200px;
-    height: 100px;
+    width: 216px;
+    height: 150px;
     display: block;
-    margin: 0 auto;
+    margin-bottom: 12px;
+    
 }
 
 form{
@@ -194,12 +196,12 @@ input[id="remember_"] + label {
   li p:nth-child(3){
     position: absolute;
     left: 23px;
-    top: 276px;
+    top: 324px;
   }
 
   input.forgot_p{
     position: absolute;
-    top: 285px;
+    top: 332px;
     left: 157px;
     font-size: 12px;
     border: none;

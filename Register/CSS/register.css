@@ -50,14 +50,14 @@ button{
     padding: 10px 50px;
     box-sizing: border-box;
     position: relative;
-    padding: 30px 50px;
+    padding: 10px 50px;
 }
 
 img.login_logo{
-    width: 200px;
-    height: 100px;
+    width: 216px;
+    height: 150px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto 12px auto;
 }
 
 h1{
@@ -225,14 +225,14 @@ input[type="radio"]{
 .text1 p{
     position: absolute;
     left: 460px;
-    top: 414px;
+    top: 430px;
 }
 
 .text2 p{
     position: absolute;
     width:160px;
     left: 460px;
-    top: 438px;
+    top: 456px;
 }
 
 input[id="subscribe_"] + label {
@@ -306,7 +306,7 @@ input[id="accept_"] {
     font-size: 14px;
     height: 32px;
     width: 100px;
-    margin: 16px auto;
+    margin: 0 auto;
 }
 
 .second_bt:hover{
@@ -322,7 +322,7 @@ input[id="accept_"] {
     border-radius: 8px;
     font-size: 14px;
     height: 32px;
-    margin: 16px auto;
+    margin: 0 auto;
     width: 100px;
     text-align: center;
 }
