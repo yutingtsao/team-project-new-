@@ -61,6 +61,10 @@ button.fake_bt{
   color: #613C11;
 }
 
+.login_page i:hover{
+  color: #CFAD84;
+}
+
 .login_main{
     width: 216px;
     height: 100%;

@@ -63,6 +63,11 @@ button{
     color: #613C11;
   }
 
+  .bi.bi-x:hover{
+    color: #CFAD84;
+  }
+
+
 img.login_logo{
     width: 216px;
     height: 150px;
@@ -164,8 +169,6 @@ input[type="date"]::-webkit-datetime-edit {
       top: 100%;
     }
 }
-
-
 
 
 /* radio-selector */
