@@ -2,6 +2,16 @@
 $('button').click(function(){
     $('.mask').css('display','block')
 })
+var main_bt = document.querySelector('.main_bt');
+main_bt.addEventListener('click',function(){
+    window.location.href = 'https://www.google.com.tw/?hl=zh_TW'; // 在这里指定您想要跳转的 URL
+})
+
+var second_bt = document.querySelector('.second_bt');
+second_bt.addEventListener('click',function(){
+    window.location.href = 'https://www.google.com.tw/?hl=zh_TW'; // 在这里指定您想要跳转的 URL
+})
+
 // 按下x可以關閉小視窗
 $('.bi').click(function(){
     $('.mask').css('display','none')
