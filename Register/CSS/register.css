@@ -23,9 +23,7 @@ button{
     cursor: pointer;
     /* text-transform: uppercase; */
   }
-  button:hover{
-    background-color: darkgreen;
-  }
+ 
 
 .mask{
     width: 100%;
@@ -311,6 +309,11 @@ input[id="accept_"] {
     margin: 16px auto;
 }
 
+.second_bt:hover{
+    border: 1px solid #EAC18E;
+    color: #EAC18E;
+}
+
 .main_bt{
     
     background-color: #CFAD84;
@@ -324,6 +327,9 @@ input[id="accept_"] {
     text-align: center;
 }
 
+.main_bt:hover{
+  background-color: #EAC18E;
+}
 
 /* DASH+OR */
 .dash_or{
