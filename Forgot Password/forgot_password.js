@@ -4,10 +4,10 @@ main_bt.addEventListener('click',function(){
     window.location.href = 'https://www.google.com.tw/?hl=zh_TW'; // 在这里指定您想要跳转的 URL
 })
 
-var second_bt = document.querySelector('.second_bt');
-second_bt.addEventListener('click',function(){
-    window.location.href = 'https://www.google.com.tw/?hl=zh_TW'; // 在这里指定您想要跳转的 URL
+$('.second_bt').click(function(){
+    $('.forgot_page').hide()
 })
+
 
  // 按下按鈕可以打開小視窗
 $('button').click(function(){
