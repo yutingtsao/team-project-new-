@@ -1,13 +1,13 @@
 
 $('.main_bt').click(function(){
-    $('.forgot_page').hide()
+    $('.change_page').hide()
     $('.mask1').show()
 })
 
-$('.second_bt').click(function(){
-    // $('.forgot_page').css('display','none')
-    window.history.back()
-})
+// $('.second_bt').click(function(){
+//     // $('.forgot_page').css('display','none')
+//     window.history.back()
+// })
 
 // 秒數倒數
 $('.main_bt').click(function() {
@@ -40,7 +40,7 @@ $('.mask').click(function(){
     $(this).removeAttr('style')
 })
 
-$('.forgot_page').click(function(e){
+$('.change_page').click(function(e){
     e.stopPropagation()
 })
 
