@@ -1,7 +1,7 @@
 
-var main_bt = document.querySelector('.main_bt');
-main_bt.addEventListener('click',function(){
-    window.location.href = './change_password.html'; // 在这里指定您想要跳转的 URL
+$('.main_bt').click(function(){
+    $('.forgot_page').hide()
+    $('.mask1').show()
 })
 
 $('.second_bt').click(function(){
