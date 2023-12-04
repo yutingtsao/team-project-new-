@@ -71,30 +71,26 @@ body{
   transform: scaleX(1); /* 悬停时显示删除线 */
 }
 
+
 /* 中間內容 */
 .middleContainer{
   width: 1920px;
   height: 1002px;
   position: relative;
-
+  z-index: -2;
 }
 
-/* 主要資訊 */
-.main_content{
-  width: 781px;
-  height: 500px;
-  position: absolute;
-  left: 543px;
-  top: 370px;
-  
-}
 
 /* 標題 */
 .section1 h1{
   border-left: 12px solid #613C11;
+  font-size: 20px;
   line-height: 1.6;
   width: 200px;
   padding: 0 20px;
+  position: absolute;
+  top: 282px;
+  left: 578px;
   
 }
 
@@ -102,11 +98,11 @@ body{
 .section2{
   width: 724px;
   height: 385px;
-  margin-top: 49px;
   position: absolute;
-  left: 50px;
+  left: 598px;
+  top: 395px;
   border-radius: 20px;
-  /* border: #CFAD84 1px solid; */
+  border: #CFAD84 1px solid;
   box-shadow: 4px 4px 4px 0px #d1bfaa;
   
 }
@@ -116,8 +112,6 @@ body{
   width: 689px;
   height: 350px;
   border: 2px dashed #CFAD84;
-  /* border-right: 2px dashed #CFAD84;
-  border-bottom: 2px dashed #CFAD84; */
   border-radius: 20px;
   position:absolute;
   left: 0;
@@ -178,7 +172,94 @@ body{
   font-weight: bold;
 }
 
+.right_area{
+  position: relative;
+}
 
+.bt3{
+  width: 140px;
+  height: 48px;
+  background-color: #CFAD84;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  position: absolute;
+  left: 290px;
+  top: 37px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
+
+.right_area h3:nth-of-type(1){
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top: 125px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
+
+.right_area h3:nth-of-type(2){
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top: 177px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
+
+.right_area h3:nth-of-type(3){
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top: 229px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
+
+.right_area p:nth-of-type(1){
+  font-size: 20px;
+  position: absolute;
+  left: 236px;
+  top: 125px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
+
+.right_area p:nth-of-type(2){
+  font-size: 20px;
+  position: absolute;
+  left: 236px;
+  top: 177px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
+
+.right_area p:nth-of-type(3){
+  font-size: 20px;
+  position: absolute;
+  left: 300px;
+  top: 177px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
+
+.right_area p:nth-of-type(4){
+  font-size: 20px;
+  position: absolute;
+  left: 236px;
+  top: 229px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+}
 
 .footerContainer{
   z-index: 1;
