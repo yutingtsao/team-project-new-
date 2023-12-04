@@ -9,6 +9,7 @@ body{
   line-height: 1.6;
   letter-spacing: 4%;
   font-weight: bold;
+  z-index: -4;
 }
 
 .hole_page{
@@ -19,6 +20,7 @@ body{
   line-height: 1.6;
   letter-spacing: 4%;
   font-weight: bold;
+  z-index: -3;
 }
 
 .bread{

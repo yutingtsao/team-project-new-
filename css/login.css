@@ -9,7 +9,7 @@ body{
     font-weight: bold;
 }
 /* 假button */
-button.fake_bt{
+/* button.fake_bt{
     display: block;
     width: 300px;
     height: 80px;
@@ -21,8 +21,7 @@ button.fake_bt{
     margin-top: 50px;
     border-radius: 10px;
     cursor: pointer;
-    /* text-transform: uppercase; */
-  }
+  } */
   
 
 .mask{
@@ -51,7 +50,7 @@ button.fake_bt{
     margin: 0 auto;
 }
 
-.login_page i{
+.bi.bi-x{
   font-size: 48px;
   position: absolute;
   right: 20px;
@@ -61,7 +60,7 @@ button.fake_bt{
   color: #613C11;
 }
 
-.login_page i:hover{
+.bi.bi-x i:hover{
   color: #CFAD84;
 }
 
