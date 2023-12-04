@@ -9,18 +9,28 @@ body{
   font-weight: bold;
 }
 
-.middleContainer{
-  width: 1920px;
-  height: 1002px;
-  margin: 0 auto;
+.hole_page{
+  position: relative;
 }
-.main_nav{
+
+.bread{
+  width: 387px;
+  height: 96px;
+  position: absolute;
+  left: 174px;
+  top: 224px;
+}
+
+.selector{
   width: 184px;
   height: 564px;
-  float: left;
-  margin: 282px 190px 156px 174px;
-  
+  position: absolute;
+  left: 174px;
+  top: 360px;
 }
+
+
+
 
 .main_nav li a{
   display: block;
@@ -29,17 +39,30 @@ body{
   border-bottom: 1px solid #613C11;
   color: #613C11;
   background-color: #fff;
+  
 }
+
+
 
 .main_nv li a:hover{
   color:#CFAD84 ;
   
 }
 
+
+.middleContainer{
+  width: 1920px;
+  height: 1002px;
+  
+}
+
+
 .main_content{
   width: 781px;
   height: 500px;
-  margin: 0 auto;
+  position: absolute;
+  left: 543px;
+  top: 370px;
 }
 
 

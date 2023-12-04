@@ -8,73 +8,75 @@
     <title>My Member</title>
 </head>
 <body>
-    <!-- 頭 -->
-    <div id="headerContainer"></div>
-    <!-- 側欄 -->
-    <nav class="main_nav">           
-        <img src="./nav_logo/logo.svg" alt="">
-        <div class="selector">
-            <ul>
-                <li><a href="#">我的帳戶</a></li>
-                <li><a href="#">更新個人資訊</a></li>
-                <li><a href="#">更新密碼</a></li>
-                <li><a href="#">收件地址管理</a></li>
-                <li><a href="#">我的會員點數</a></li>
-                <li><a href="#">我的優惠券</a></li>
-                <li><a href="#">會員權益說明</a></li>
-                <li><a href="#">訂單紀錄</a></li>
-                <li><a href="#">收藏清單</a></li>
-            </ul>
-        </div>
-</nav>
-    <!-- 中間內容 -->
-    <div class="middleContainer">
+    <div class="hole_page">
+        <!-- 頭 -->
+        <div id="headerContainer"></div>
         <!-- 麵包屑 -->
-        <head class="bread">
-                <span>首頁</span>
-                <i class="bi bi-chevron-right"></i>
-                <span>會員中心</span>
-                <i class="bi bi-chevron-right"></i>
-                <span>我的帳戶</span>
-        </head>
-        
-        <!-- 主要資訊 -->
-        <section class="main_content">
-            <!-- 標題 -->
-            <div class="section1">
-                <h1>我的帳戶</h1>
+        <section class="bread">
+            <span>首頁</span>
+            <i class="bi bi-chevron-right"></i>
+            <span>會員中心</span>
+            <i class="bi bi-chevron-right"></i>
+            <span>我的帳戶</span>
+        </section>
+        <!-- 側欄 -->
+        <nav class="main_nav">           
+            
+            <div class="selector">
+                <img src="./nav_logo/logo.svg" alt="">
+                <ul>
+                    <li><a href="#">我的帳戶</a></li>
+                    <li><a href="#">更新個人資訊</a></li>
+                    <li><a href="#">更新密碼</a></li>
+                    <li><a href="#">收件地址管理</a></li>
+                    <li><a href="#">我的會員點數</a></li>
+                    <li><a href="#">我的優惠券</a></li>
+                    <li><a href="#">會員權益說明</a></li>
+                    <li><a href="#">訂單紀錄</a></li>
+                    <li><a href="#">收藏清單</a></li>
+                </ul>
             </div>
-            <!-- 內容 -->
-            <div class="section2">
-                <div class="outside">
-                    <div class="inside">
-                        <div class="left_area">
-                            <H2>Yu Ting</H2>
-                            <h2>金湯匙饗友</h2>
-                            <button type="button" class="bt1">登入</button>
-                            <button type="button" class="bt2">查看訂單</button>
-                        </div>
+        </nav>
+        <!-- 中間內容 -->
+        <div class="middleContainer">
+            <!-- 主要資訊 -->
+            <section class="main_content">
+                <!-- 標題 -->
+                <div class="section1">
+                    <h1>我的帳戶</h1>
+                </div>
+                <!-- 內容 -->
+                <div class="section2">
+                    <div class="outside">
+                        <div class="inside">
+                            <div class="left_area">
+                                <H2>Yu Ting</H2>
+                                <h2>金湯匙饗友</h2>
+                                <button type="button" class="bt1">登入</button>
+                                <button type="button" class="bt2">查看訂單</button>
+                            </div>
 
-                        <div class="right_area">
-                            <button type="button" class="bt3">登入</button>
-                            <h3>總累積消費金額</h3>
-                            <p>NT$2000</p>
-                            <h3>會員點數</h3>
-                            <p>100點</p>
-                            <p>(約NT$100)</p>
-                            <h3>專屬優惠券</h3>
-                            <p>5張</p>
+                            <div class="right_area">
+                                <button type="button" class="bt3">登入</button>
+                                <h3>總累積消費金額</h3>
+                                <p>NT$2000</p>
+                                <h3>會員點數</h3>
+                                <p>100點</p>
+                                <p>(約NT$100)</p>
+                                <h3>專屬優惠券</h3>
+                                <p>5張</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
+        </div>
+
+        <!-- 尾 -->
+        <div id="footerContainer"></div>
     </div>
-
-    <!-- 尾 -->
-    <div id="footerContainer"></div>
-
+    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="./my_member.js"></script>
 </body>
