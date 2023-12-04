@@ -76,6 +76,7 @@ body{
   width: 1920px;
   height: 1002px;
   position: relative;
+
 }
 
 /* 主要資訊 */
@@ -107,9 +108,7 @@ body{
   border-radius: 20px;
   /* border: #CFAD84 1px solid; */
   box-shadow: 4px 4px 4px 0px #d1bfaa;
-  color: #613C11;
-  font-weight: bolder;
-  font-size: 20px;
+  
 }
 
 /* 內框 */
@@ -159,20 +158,27 @@ body{
   position: absolute;
   left: 82px;
   top: 189px;
-  
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
 }
 
 .bt2{
-  width: 88px;
+  width: 120px;
   height: 48px;
   background-color: #CFAD84;
   border: none;
   border-radius: 8px;
   font-size: 16px;
   position: absolute;
-  left: 82px;
+  left: 66px;
   top: 260px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
 }
+
+
 
 .footerContainer{
   z-index: 1;
