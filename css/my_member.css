@@ -1,8 +1,47 @@
 @import url('reset.css');
 
+body{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #613C11;
+  line-height: 1.6;
+  letter-spacing: 4%;
+  font-weight: bold;
+}
 
-.color_block{
-  width: 16px;
-  height: 40px;
-  background-color:#613C11;
+.middleContainer{
+  width: 1200px;
+  height: 1002px;
+  text-align: center;
+}
+.main_nav{
+  width: 184px;
+  height: 564px;
+  float: left;
+
+}
+
+.main_nav li a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #613C11;
+  color: #613C11;
+  background-color: #fff;
+}
+
+.main_nv li a:hover{
+  color:#CFAD84 ;
+  
+}
+
+.main_content{
+  width: 781px;
+  height: 500px;
+  text-align: center;
+}
+
+h1{
+  border-left: 40px solid #613C11;
+  
 }
