@@ -9,3 +9,4 @@ $(document).ready(function() {
 $('.bt1').click(function(){
     window.location.href = './login.html'; 
 })
+
