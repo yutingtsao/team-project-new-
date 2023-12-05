@@ -11,18 +11,6 @@
 })
 
 $(function(){
-    $('.register_bt').click(function(){
-        $('.mask_register').css('display','block')
-        $('.mask_login').css('display','none')
-    })
-        // 按下x可以關閉小視窗
-        $('.bi.bi-x').click(function(){
-            $('.mask_register').css('display','none')
-        })
-        
-})
-
-$(function(){
     $('.login_bt').click(function(){
         $('.mask_register').css('display','none')
     })
@@ -52,16 +40,19 @@ $('.login_page').click(function(e){
 })
 
 // 忘記密碼
-// 還在處理這一段
-$('.forgot_p').click(function(){
-    $('.login_page').hide()
-    
+
+$('.cancel_').click(function(){
+    window.history.back()
 })
 
 $('.forgot_p').click(function(){
-    window.location.href = './forgot_password.html'; 
+    $('.login_page').css('display','none')
+    $('.mask_forgot').css('display','block')
 })
 
+$('.verified_bt').click(function(){
+    $('.mask_change').css('display','block')
+})
 
 // 改密碼
 
@@ -107,6 +98,18 @@ $('.bi').click(function(){
 
 $('.register_page').click(function(e){
     e.stopPropagation()
+})
+
+$(function(){
+    $('.register_bt').click(function(){
+        $('.mask_register').css('display','block')
+        $('.mask_login').css('display','none')
+    })
+        // 按下x可以關閉小視窗
+        $('.bi.bi-x').click(function(){
+            $('.mask_register').css('display','none')
+        })
+        
 })
 
 // $('.mask1').click(function(e){
