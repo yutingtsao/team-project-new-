@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     font-family: Roboto;
     font-size: 14px;
     color: #613C11;
     line-height: 1.6;
     letter-spacing: 4%;
     font-weight: bold;
-}
+} */
 
 header.header {
     font-family: 'Roboto', sans-serif;
@@ -49,12 +49,9 @@ header.header div.header_list div.header_nav_list ul.header_nav_list_left > li >
 }
 
 header.header div.header_list div.header_nav_list {
-    position: relative;
+
 }
 header.header div.header_list div.header_nav_list ul.header_nav_list_right{
-    position: absolute;
-    top: 0px;
-    right: -200px;
 }
 header.header div.header_list div.header_nav_list ul.header_nav_list_right span.material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
@@ -238,6 +235,7 @@ h1{
     font-size: 20px;
     font-weight: bold;
 }
+
 span.title_line{
     background-color:#CFAD84;
     height: 2px;
@@ -246,18 +244,18 @@ span.title_line{
     margin: 0 auto;
 }
 
-ul{
+.login_main ul{
     display: block;
     margin: 0 auto;
 }
 
-li{
+.login_main li{
     width: 240px;
     display: block;
     margin: 0 auto;
 }
 
-p{
+.login_main p{
     margin:10px 0 4px 0;
     font-size: 12px;
 }
