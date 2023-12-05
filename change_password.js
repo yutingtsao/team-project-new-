@@ -1,5 +1,5 @@
 
-$('.main_bt').click(function(){
+$('.revised_').click(function(){
     $('.change_page').hide()
     $('.mask1').show()
 })
@@ -10,7 +10,7 @@ $('.main_bt').click(function(){
 // })
 
 // 秒數倒數
-$('.main_bt').click(function() {
+$('.revised_').click(function() {
     var countdownElement = $(".second_5");
     var seconds = 5;
     updateCountdown();
@@ -33,10 +33,10 @@ $('.main_bt').click(function() {
 
 // 按下x可以關閉小視窗
 $('.bi').click(function(){
-    $('.mask').css('display','none')
+    $('.mask_change').css('display','none')
 })
  // 按下外面空白處可以關閉小視窗
-$('.mask').click(function(){
+$('.mask_change').click(function(){
     $(this).removeAttr('style')
 })
 

@@ -51,15 +51,53 @@ $('.forgot_p').click(function(){
 })
 
 $('.verified_bt').click(function(){
+    $('.mask_forgot').css('display','none')
     $('.mask_change').css('display','block')
 })
 
 // 改密碼
+$('.revised_').click(function(){
+    $('.change_page').hide()
+    $('.notice1').show()
+})
+
+// 問老師
+$('.revised_').click(function() {
+    var countdownElement = $(".second5");
+    var seconds = 5;
+    updateCountdown();
+    var countdownInterval = setInterval(function() {
+        seconds-=1;
+        updateCountdown();
+        if (seconds === 0) {
+            clearInterval(countdownInterval); 
+            $('.notice1').css('display','none');
+            $('.mask_change').css('display','none'); 
+            $('.mask_login').css('display','block'); 
+        }
+    }, 1000);
+    
+    function updateCountdown() {
+        countdownElement.text(seconds);
+    }
+});
+
+$('.bi').click(function(){
+    $('.mask_change').css('display','none')
+})
+ // 按下外面空白處可以關閉小視窗
+$('.mask_change').click(function(){
+    $(this).removeAttr('style')
+})
+
+$('.change_page').click(function(e){
+    e.stopPropagation()
+})
 
 // 註冊
 $('.register_completed').click(function(){
     $('.register_page').hide()
-    $('.mask1').show()
+    $('.notice2').show()
 })
 
 $('.register_completed').click(function() {
@@ -71,7 +109,7 @@ $('.register_completed').click(function() {
         updateCountdown();
         if (seconds === 0) {
             clearInterval(countdownInterval); 
-            $('.mask1').css('display','none');
+            $('.notice2').css('display','none');
             $('.mask_register').css('display','none'); 
             $('.mask_login').css('display','block'); 
         }
