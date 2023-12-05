@@ -152,9 +152,10 @@ body{
   font-weight: bold;
 }
 
-.middle_area h3{
+.middle_area h3:nth-of-type(1){
   font-size: 20px;
   position: absolute;
+  width: 439px;
   border-bottom: 1px solid #CFAD84;
   line-height: 2.5;
   left: 125px;
@@ -162,6 +163,18 @@ body{
   font-family: 'Roboto', sans-serif;
   color: #613C11;
   font-weight: bold;
+}
+
+.middle_area h3:nth-of-type(2){
+  font-size: 16px;
+  position: absolute;
+  line-height: 2.5;
+  left: 125px;
+  top: 100px;
+  font-family: 'Roboto', sans-serif;
+  color: #613C11;
+  font-weight: bold;
+  letter-spacing:2px;
 }
 
 #footContainer{
