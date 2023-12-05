@@ -12,14 +12,14 @@ second_bt.addEventListener('click',function(){
 
  // 按下按鈕可以打開小視窗
 $('document').ready(function(){
-    $('.mask').css('display','block')
+    $('.mask_login').css('display','block')
 })
 // 按下x可以關閉小視窗
 $('.bi').click(function(){
-    $('.mask').css('display','none')
+    $('.mask_login').css('display','none')
 })
  // 按下外面空白處可以關閉小視窗
-$('.mask').click(function(){
+$('.mask_login').click(function(){
     $(this).removeAttr('style')
 })
 
