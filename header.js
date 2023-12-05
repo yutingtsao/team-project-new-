@@ -13,6 +13,7 @@
 $(function(){
     $('.register_bt').click(function(){
         $('.mask_register').css('display','block')
+        $('.mask_login').css('display','none')
     })
         // 按下x可以關閉小視窗
         $('.bi.bi-x').click(function(){
@@ -26,7 +27,7 @@ $(function(){
         $('.mask_register').css('display','none')
     })
     $('.mask_register').click(function(){
-        $('.login_bt').css('display','none')
+        $('.mask_login').css('display','none')
     })
 })
 
@@ -108,6 +109,6 @@ $('.register_page').click(function(e){
     e.stopPropagation()
 })
 
-$('.mask1').click(function(e){
-    e.stopPropagation()
-})
+// $('.mask1').click(function(e){
+//     e.stopPropagation()
+// })

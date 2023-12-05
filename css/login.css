@@ -210,13 +210,14 @@ input[id="remember_"] + label {
     position: absolute;
     left: 23px;
     top: 324px;
+    font-size: 14px;
   }
 
   input.forgot_p{
     position: absolute;
     top: 332px;
     left: 157px;
-    font-size: 12px;
+    font-size: 14px;
     border: none;
     background-color: #fff;
     color: #613C11;
