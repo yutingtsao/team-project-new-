@@ -68,7 +68,7 @@ body{
   top: 20px; 
   height: 12px;
   width: fit-content ;
-  background-color: #CFAD84;
+  background-color: #E0DAC4;
   transform: scaleX(0); /* 初始状态下线的宽度为0，不可见 */
   z-index: -1;
 }
