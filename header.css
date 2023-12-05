@@ -284,8 +284,8 @@ input[id="remember_"] + label {
   }
   input[id="remember_"]:checked + label:after {
     position: relative;
-    top: -4px;
-    left: 2px;
+    top: -9px;
+    left: 0px;
     content: '\2714';
     font-size: 14px;
   }
@@ -598,14 +598,14 @@ input::placeholder{
 }
 
 
-input[id="remember_"] + label {
+/* input[id="remember_"] + label {
     margin: 8px 0;
     display: block;
     width: 14px;
     height: 14px;
     border: 2px solid #CFAD84;
     border-radius: 4px;
-    /* cursor: pointer; */
+    cursor: pointer;
   }
   input[id="remember_"]:checked + label:after {
     position: relative;
@@ -616,7 +616,7 @@ input[id="remember_"] + label {
   }
   input[id="remember_"] {
     display: none;
-  }
+  } */
 
 
   li p:nth-child(3){
@@ -845,14 +845,14 @@ input::placeholder{
 }
 
 
-input[id="remember_"] + label {
+/* input[id="remember_"] + label {
   margin: 8px 0;
   display: block;
   width: 14px;
   height: 14px;
   border: 2px solid #CFAD84;
   border-radius: 4px;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 input[id="remember_"]:checked + label:after {
@@ -861,7 +861,7 @@ input[id="remember_"]:checked + label:after {
   left: 2px;
   content: '\2714';
   font-size: 14px;
-}
+} */
 
 input[id="remember_"] {
   display: none;
@@ -1222,8 +1222,8 @@ input[id="subscribe_"] + label {
 
 input[id="subscribe_"]:checked + label:after {
   position: relative;
-  top: -4px;
-  left: 2px;
+  top: -9px;
+  left: 0px;
   content: '\2714';
   font-size: 14px;
 }
@@ -1244,8 +1244,8 @@ input[id="accept_"] + label {
 
 input[id="accept_"]:checked + label:after {
   position: relative;
-  top: -4px;
-  left: 2px;
+  top: -9px;
+  left: 0px;
   content: '\2714';
   font-size: 14px;
 }
