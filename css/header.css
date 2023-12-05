@@ -642,16 +642,18 @@ input[type="radio"]{
 }
 
 .text1 p{
+  font-size: 14px;
   position: absolute;
   left: 460px;
-  top: 448px;
+  top: 457px;
 }
 
 .text2 p{
+  font-size: 14px;
   position: absolute;
   width:160px;
   left: 460px;
-  top: 471px;
+  top: 479px;
 }
 
 input[id="subscribe_"] + label {
