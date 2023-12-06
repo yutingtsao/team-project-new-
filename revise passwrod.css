@@ -10,6 +10,7 @@ body{
   letter-spacing: 4%;
   font-weight: bold;
   z-index: -4;
+  background-color: #FFF8F1;
 }
 
 #headerContainer{
@@ -35,6 +36,8 @@ body{
   left: 174px;
   top: 224px;
   font-size: 20px;
+  font-weight: normal;
+  font-size: 24px;
 }
 
 /* 側欄 */
@@ -116,7 +119,7 @@ body{
     border-radius: 20px;
     border: #CFAD84 1px solid;
     box-shadow: 4px 4px 4px 0px #d1bfaa;
-    
+    background-color: #fff;
 }
   
   /* 內框 */
@@ -133,6 +136,7 @@ body{
     margin: auto;
     display: grid;
     grid-template-columns: 230px 459px ;
+    background-color: #fff;
 }
 
 .middle_area{
