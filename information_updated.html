@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./information_updated.css">
     
     <title>Information_updated</title>
@@ -20,7 +20,7 @@
             <i class="bi bi-chevron-right"></i>
             <span>會員中心</span>
             <i class="bi bi-chevron-right"></i>
-            <span>管理收件地址</span>
+            <span>更新個人資訊</span>
         </section>
         <!-- 側欄 -->
         <nav class="main_nav">           
@@ -43,7 +43,7 @@
         <div class="middleContainer">
             <!-- 標題 -->
             <div class="section1">
-                <h1>管理收件地址</h1>
+                <h1>更新個人資訊</h1>
             </div>
             <!-- 主要資訊 -->
             
@@ -51,9 +51,47 @@
                 <div class="section2">
                     <div class="outside">                      
                         <div class="middle_area">
-                            <button type="button" class="bt3">新增常見地址</button>
-                            <h3>常用地址</h3>
-                            <h3>100台北市中正區濟南路一段321號</h3>
+                            <h2>更新個人資訊</h2>
+                            <form>
+                                <div class="user-box1">
+                                    <input type="text" name="" required="">
+                                    <label>姓名</label>
+                                </div>
+                                <div class="user-box1">
+                                    <input type="text" name="" required="">
+                                    <label>電子信箱</label>
+                                </div>
+                                <div class="user-box1">
+                                    <input type="text" name="" required="">
+                                    <label>電話</label>
+                                </div>
+                                <div class="user-box1">
+                                    <input type="date" name="" required="">
+                                    <label>生日</label>
+                                </div>
+                            </form>
+
+                            <div class="radio_">
+                                <p>性別</p>
+                                <label class="btn active">
+                                     <input type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>男生</span>
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" name='gender1'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> 女生</span>
+                                </label>
+                            </div>
+                            <!-- subscribe&accept -->
+                            <div class="checkbox_">
+                                <div class="subscibe_us">
+                                    <div class="text_">
+                                        <p>訂閱電子報</p>
+                                        <p>訂閱商品/活動訊息,我們將不定期透過email通知最新商品活動及優惠訊息。</p>
+                                    </div>
+                                    <input type="checkbox" id="subscribe1">
+                                    <label for="subscribe1"></label>   
+                                </div>  
+                            </div>
+                            <button type="button" class="add_address">新增常見地址</button>
                         </div>                   
                     </div>
                 </div>

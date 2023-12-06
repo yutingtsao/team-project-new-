@@ -18,8 +18,9 @@ body{
 
 .hole_page{
   position: relative;
+  height: 1526px;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #613C11;
   line-height: 1.6;
   letter-spacing: 4%;
@@ -70,7 +71,7 @@ body{
   width: fit-content ;
   background-color: #E0DAC4;
   transform: scaleX(0); /* 初始状态下线的宽度为0，不可见 */
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .selector li a:hover::after {
@@ -83,8 +84,7 @@ body{
   width: 1920px;
   height: 1002px;
   position: relative;
-  z-index: -2;
-  
+  /* z-index: -2;  */
 }
 
 
@@ -100,12 +100,13 @@ body{
   top: 282px;
   left: 578px;
   
+  
 }
 
 /* 外框 */
 .section2{
     width: 724px;
-    height: 385px;
+    height: 896px;
     position: absolute;
     left: 598px;
     top: 395px;
@@ -118,7 +119,7 @@ body{
   /* 內框 */
 .outside{
     width: 689px;
-    height: 350px;
+    height: 856px;
     border: 2px dashed #CFAD84;
     border-radius: 20px;
     position:absolute;
@@ -134,10 +135,184 @@ body{
 .middle_area{
     position: relative;
     width: 689px;
-    height: 350px;
+    height: 100%;
 }
 
-.middle_area .bt3{
+.middle_area h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.middle_area form{
+  width: 300px;
+  margin: 60px auto 0px auto;
+}
+
+.user-box1 {
+  position: relative;
+  width: 100%;
+  margin-top: 16px;
+}
+
+
+input[type="date"]::-webkit-datetime-edit {
+  visibility: hidden;
+}
+
+.user-box1 input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #CFAD84;
+  border: none;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border-bottom: 1px solid #613C11;
+  outline: none;
+  background: transparent;
+}
+
+.user-box1 label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #613C11;
+  pointer-events: none;
+  transition: .5s;
+  
+}
+
+.user-box1 input:focus ~ label,
+.user-box1 input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #CFAD84;
+  font-size: 15px;
+}
+
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+/* radio-selector */
+/* https://codepen.io/BrianSassaman/pen/AMMGGm */
+
+.radio_{
+  width: 300px;
+  margin: 24px auto 0 auto;
+}
+.radio_ ul{
+  display: flex;
+}
+
+.radio_ p{
+  margin: 16px 0;
+}
+
+.btn.active{
+  margin-right: 16px;
+}
+
+i.fa.fa-dot-circle-o.fa-2x::before{
+  font-size: 28px !important;
+}
+i.fa.fa-circle-o.fa-2x::before{
+  font-size: 28px !important;
+}
+
+input[type="radio"] ~ i.fa.fa-circle-o{
+  color: #F1E7DB;    display: inline;
+}
+input[type="radio"] ~ i.fa.fa-dot-circle-o{
+  display: none;
+}
+input[type="radio"]:checked ~ i.fa.fa-circle-o{
+  display: none;
+}
+input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
+  color:#CFAD84;    display: inline;
+}
+span:hover input[type="radio"] ~ i.fa {
+color: #CFAD84;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+
+
+/* checkbox */
+.checkbox_{
+  width: 300px;
+  margin: 36px auto 0 auto;
+
+}
+
+.subscribe_us{
+  position: relative;
+}
+
+
+.text_ p{
+  position: absolute;
+  left: 226px;
+  top: 569px;
+  font-size: 16px;
+}
+
+.text_ p:nth-child(2){
+  position: absolute;
+  width: 250px;
+  left: 227px;
+  top: 599px;
+  font-size: 14px;
+}
+
+
+
+input[id="subscribe1"] + label {
+  margin: 8px 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #CFAD84;
+  border-radius: 4px;
+  /* cursor: pointer; */
+}
+
+input[id="subscribe1"]:checked + label:after {
+  position: relative;
+  top: -4px;
+  left: 2px;
+  content: '\2714';
+  font-size: 16px;
+}
+
+input[id="subscribe1"] {
+  display: none;
+}
+
+.add_address{
   width: 140px;
   height: 48px;
   background-color: #CFAD84;
@@ -145,38 +320,13 @@ body{
   border-radius: 8px;
   font-size: 16px;
   position: absolute;
-  left: 500px;
-  top: 265px;
+  left: 270px;
+  top: 696px;
   font-family: 'Roboto', sans-serif;
   color: #613C11;
   font-weight: bold;
 }
 
-.middle_area h3:nth-of-type(1){
-  font-size: 20px;
-  position: absolute;
-  width: 439px;
-  border-bottom: 1px solid #CFAD84;
-  line-height: 2.5;
-  left: 125px;
-  top: 46px;
-  font-family: 'Roboto', sans-serif;
-  color: #613C11;
-  font-weight: bold;
-}
-
-.middle_area h3:nth-of-type(2){
-  font-size: 16px;
-  position: absolute;
-  line-height: 2.5;
-  left: 125px;
-  top: 100px;
-  font-family: 'Roboto', sans-serif;
-  color: #613C11;
-  font-weight: bold;
-  letter-spacing:2px;
-}
-
-#footContainer{
+/* #footContainer{
   z-index: 1;
-}
+} */
