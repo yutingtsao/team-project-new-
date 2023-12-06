@@ -6,7 +6,7 @@ $(document).ready(function() {
     $("#footerContainer").load("./footer.html");
 });
 
-$('.bt1').click(function(){
+$('.bt2').click(function(){
     window.location.href = './login.html'; 
 })
 

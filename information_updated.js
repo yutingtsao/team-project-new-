@@ -6,7 +6,14 @@ $(document).ready(function() {
     $("#footerContainer").load("./footer.html");
 });
 
-$('.bt1').click(function(){
-    window.location.href = './login.html'; 
+$('.add_info').click(function(){
+    $('.completed_').css('display','block')
 })
 
+$('.completed_').click(function(){
+    $(this).removeAttr('style')
+})
+
+$('.completed_area').click(function(e){
+    e.stopPropagation()
+})
