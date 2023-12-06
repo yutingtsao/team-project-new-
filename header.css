@@ -6,7 +6,7 @@
 
 body {
     font-family: Roboto;
-    font-size: 16px !important;
+    font-size: 16px;
     color: #613C11 ;
     line-height: 1.6;
     letter-spacing: 4%;
@@ -163,7 +163,6 @@ img.login_logo{
     height: 150px;
     display: block;
     margin-bottom: 12px;
-    
 }
 
 form{
@@ -245,20 +244,38 @@ span.title_line{
 }
 
 .login_main ul{
-    display: block;
+    display: flex;
     margin: 0 auto;
+    align-content: space-around;
 }
 
 .login_main li{
     width: 240px;
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
 
-.login_main p{
-    margin:10px 0 4px 0;
-    font-size: 12px;
+
+.rem_{
+  font-size: 14px;
+  flex-grow: 2;
+  margin-left: 8px;
+  align-self: center;
 }
+
+
+input.forgot_p{
+  font-size: 14px;
+  border: none;
+  background-color: #fff;
+  color: #613C11;
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: right;
+  margin-left: 40px;
+  /* height:20px; */
+}
+
 
 /* input.my_account,input.my_password{
     width: 200px;
@@ -294,25 +311,6 @@ input[id="remember_"] + label {
   }
 
 
-  li p:nth-child(3){
-    position: absolute;
-    left: 23px;
-    top: 324px;
-    font-size: 14px;
-  }
-
-  input.forgot_p{
-    position: absolute;
-    top: 332px;
-    left: 157px;
-    font-size: 14px;
-    border: none;
-    background-color: #fff;
-    color: #613C11;
-    font-weight: bold;
-    height:20px;
-    line-height: 20px;
-  }
 
   input.forgot_p:hover{
     background-color: #CFAD84;
@@ -388,6 +386,7 @@ input[id="remember_"] + label {
   border-bottom: 3px dashed #CFAD84;
   display: inline-block;
 }
+
 .dash_2{
   height: 3px;
   /* background-color: #CFAD84; */
@@ -399,7 +398,6 @@ input[id="remember_"] + label {
 
 .dash_or p{
   font-size: 14px;
-
 }
 
 h2{
@@ -584,52 +582,6 @@ input::placeholder{
     font-size: 12px;
 }
 
-
-/* input[id="remember_"] + label {
-    margin: 8px 0;
-    display: block;
-    width: 14px;
-    height: 14px;
-    border: 2px solid #CFAD84;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  input[id="remember_"]:checked + label:after {
-    position: relative;
-    top: -4px;
-    left: 2px;
-    content: '\2714';
-    font-size: 14px;
-  }
-  input[id="remember_"] {
-    display: none;
-  } */
-
-
-  li p:nth-child(3){
-    position: absolute;
-    left: 23px;
-    top: 324px;
-  }
-
-  /* input.forgot_p{
-    position: absolute;
-    top: 332px;
-    left: 157px;
-    font-size: 12px;
-    border: none;
-    background-color: #fff;
-    color: #613C11;
-    font-weight: bold;
-  }
-
-  input.forgot_p:hover{
-    background-color: #CFAD84;
-    color: #fff;
-    border-radius: 8px;
-    height:20px;
-
-  } */
 
   .bt_3 ul{
     display: flex;
@@ -852,12 +804,6 @@ input[id="remember_"]:checked + label:after {
 
 input[id="remember_"] {
   display: none;
-}
-
-li p:nth-child(3){
-  position: absolute;
-  left: 23px;
-  top: 324px;
 }
 
 
@@ -1260,7 +1206,7 @@ input[id="accept_"] {
   margin: 0 44px;
 }
 
-.cancel_{
+.cancel_1{
   border: 1px solid #CFAD84;
   background-color: #fff;
   color: #CFAD84;
@@ -1271,7 +1217,7 @@ input[id="accept_"] {
   margin: 0 auto;
 }
 
-.cancel_:hover{
+.cancel_1:hover{
   border: 1px solid #EAC18E;
   color: #EAC18E;
 }
