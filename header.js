@@ -55,10 +55,34 @@ $('.verified_bt').click(function(){
     $('.mask_change').css('display','block')
 })
 
+$('.bi.bi-x').click(function(){
+    $('.mask_forgot').css('display','none')
+})
+ // 按下外面空白處可以關閉小視窗
+$('.mask_forgot').click(function(){
+    $(this).removeAttr('style')
+})
+
+$('.forgot_page').click(function(e){
+    e.stopPropagation()
+})
+
 // 改密碼
 $('.revised_').click(function(){
     $('.change_page').hide()
     $('.notice1').show()
+})
+
+$('.bi').click(function(){
+    $('.mask_change').css('display','none')
+})
+ // 按下外面空白處可以關閉小視窗
+$('.mask_change').click(function(){
+    $(this).removeAttr('style')
+})
+
+$('.change_page').click(function(e){
+    e.stopPropagation()
 })
 
 // 問老師
@@ -82,17 +106,7 @@ $('.revised_').click(function() {
     }
 });
 
-$('.bi').click(function(){
-    $('.mask_change').css('display','none')
-})
- // 按下外面空白處可以關閉小視窗
-$('.mask_change').click(function(){
-    $(this).removeAttr('style')
-})
 
-$('.change_page').click(function(e){
-    e.stopPropagation()
-})
 
 // 註冊
 $('.register_completed').click(function(){

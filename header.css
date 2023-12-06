@@ -457,20 +457,6 @@ img.pic{
     margin: 0 auto;
 }
 
-.forgot_page i{
-  font-size: 48px;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  cursor: pointer;
-  line-height: 1;
-  color: #613C11;
-}
-
-.forgot_page i:hover{
-  color: #CFAD84;
-}
-
 
 .forgot_main{
     width: 216px;
@@ -489,7 +475,7 @@ img.pic{
   color: #613C11;
 }
 
-.forgot_main.bi.bi-arrow-right-short:hover{
+.bi-arrow-right-short:hover{
   color: #CFAD84;
 }
 
@@ -583,6 +569,7 @@ form{
 .forgot_main p{
     margin:10px 0 4px 0;
     font-size: 12px;
+    line-height:1.6;
 }
 
 /* input.my_account,input.my_password{
@@ -625,7 +612,7 @@ input::placeholder{
     top: 324px;
   }
 
-  input.forgot_p{
+  /* input.forgot_p{
     position: absolute;
     top: 332px;
     left: 157px;
@@ -642,7 +629,7 @@ input::placeholder{
     border-radius: 8px;
     height:20px;
 
-  }
+  } */
 
   .bt_3 ul{
     display: flex;
