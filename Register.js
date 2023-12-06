@@ -1,7 +1,8 @@
    // 按下按鈕可以打開小視窗
-$('button').click(function(){
-    $('.mask_register').css('display','block')
-})
+// $('button').click(function(){
+//     $('.mask_register').css('display','block')
+// })
+
 $('.register_completed').click(function(){
     $('.register_page').hide()
     $('.mask1').show()
