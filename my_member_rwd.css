@@ -1,0 +1,69 @@
+@media screen and (max-width:1280px){
+    .hole_page{
+        width: 100%;
+        /* 寬1280 */
+      }
+      
+    .bread{
+        left: 104px;
+        font-size: 18px;
+        /* 左減-70,文字20->18 */
+    }
+
+/* 側欄 */
+    .selector{
+        width: 154px;
+        left: 104px;
+        font-size: 16px;
+        /* 左減-70,文字20->16,寬-30 */
+    }
+  
+
+    /* 中間內容 */
+    .middleContainer{
+        width: 100%;
+        /* 寬1280 */
+    }
+
+    .section1 h1 {
+        font-size: 20px; 
+        left: 400px;
+        /* 左減-178,文字24->20*/
+    }
+
+/* 外框 */
+    .section2{
+        width: 694px;
+        height: 355px;
+        left: 420px;
+        /* 寬高-30,左減-178*/
+    }
+  
+  /* 內框 */
+    .outside{
+        width: 664px;
+        height: 320px;
+        /* 寬高-30 */
+    }
+
+    .bt1{
+        left: 70px;
+        top: 179px;
+        /* 上-10 */
+      }
+      
+    .bt2{
+        left: 55px;
+        top: 250px;
+        /* 上-10 */
+    }
+
+    .bt3{
+        
+        left: 260px;
+        top: 37px;
+        /* 左-30 */
+    }
+
+
+}
