@@ -10,12 +10,12 @@
         /* 左減-70,文字20->18 */
     }
 
-/* 側欄 */
+    /* 側欄 */
     .selector{
         width: 154px;
         left: 104px;
-        font-size: 16px;
-        /* 左減-70,文字20->16,寬-30 */
+        font-size: 20px;
+        /* 左減-70,寬-30 */
     }
   
 
@@ -26,15 +26,15 @@
     }
 
     .section1 h1 {
-        font-size: 20px; 
+        font-size: 24px; 
         left: 400px;
-        /* 左減-178,文字24->20*/
+        /* 左減-178*/
     }
 
-/* 外框 */
+    /* 外框 */
     .section2{
         width: 694px;
-        height: 355px;
+        /* height: 355px; */
         left: 420px;
         /* 寬高-30,左減-178*/
     }
@@ -42,20 +42,8 @@
   /* 內框 */
     .outside{
         width: 664px;
-        height: 320px;
+        /* height: 320px; */
         /* 寬高-30 */
-    }
-
-    .bt1{
-        left: 70px;
-        top: 179px;
-        /* 上-10 */
-      }
-      
-    .bt2{
-        left: 55px;
-        top: 250px;
-        /* 上-10 */
     }
 
     .bt3{
@@ -64,6 +52,4 @@
         top: 37px;
         /* 左-30 */
     }
-
-
 }
