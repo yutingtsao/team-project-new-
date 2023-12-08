@@ -141,12 +141,14 @@ body{
     position: relative;
     width: 689px;
     height: 100%;
+
 }
 
 .middle_area h2{
   font-size: 20px;
   font-weight: bold;
   margin-top: 70px;
+  text-align: center;
 }
 
 .middle_area form{
@@ -273,29 +275,34 @@ input[type="radio"]{
 
 }
 
-.subscribe_us{
-  position: relative;
+
+.text_{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
 }
 
-
 .text_ p{
-  position: absolute;
+  /* position: absolute;
   left: 226px;
-  top: 569px;
+  top: 569px; */
   font-size: 16px;
+
 }
 
 .text_ p:nth-child(2){
-  position: absolute;
-  width: 250px;
-  left: 227px;
-  top: 599px;
+  /* position: absolute; */
+  width: 280px;
+  /* left: 227px;
+  top: 599px; */
   font-size: 14px;
 }
 
 
 
 input[id="subscribe1"] + label {
+  position: absolute;
+  bottom: 250px;
   margin: 8px 0;
   display: block;
   width: 20px;
