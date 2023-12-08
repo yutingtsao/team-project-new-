@@ -93,9 +93,9 @@ body{
 /* 標題 */
 .section1 h1{
   border-left: 12px solid #613C11;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.6;
-  width: 200px;
+  width: fit-content;
   padding: 0 20px;
   position: absolute;
   top: 282px;
