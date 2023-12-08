@@ -145,6 +145,84 @@
     .left_area{
         border-right: none;
         border-bottom: 2px dashed #CFAD84;
-        width: 100%;
+        
+      }
+
+      .left_area h2:nth-child(1){
+        top: 40px;
+      }
+
+      .left_area h2:nth-child(2){
+        top: 105px;
+      }
+
+
+      .bt1{
+        width: 68px;
+        height: 35px;
+        left: 225px;
+        top: 40px;
+        font-size: 14px;
+      }
+
+      .bt2{
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        left: 200px;
+        top: 100px;
+      }
+
+
+      .bt3{
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        top: 175px;
+        left: 200px;
+      }
+
+    
+
+      .right_area h3:nth-of-type(1){
+        left: 50px;
+        top: 40px;
+        font-size: 16px;
+      }
+
+      .right_area h3:nth-of-type(2){
+        left: 50px;
+        top: 90px;
+        font-size: 16px;
+      }
+
+      .right_area h3:nth-of-type(3){
+        left: 50px;
+        top: 140px;
+        font-size: 16px;
+      }
+        
+      .right_area p:nth-of-type(1){
+        left: 206px;
+        top: 40px;
+        font-size: 16px;
+      }
+
+      .right_area p:nth-of-type(2){
+        left: 206px;
+        top: 90px;
+        font-size: 16px;
+      }
+
+      .right_area p:nth-of-type(3){
+        left: 256px;
+        top: 93px;
+        font-size: 14PX;
+      }
+
+      .right_area p:nth-of-type(4){
+        left: 236px;
+        top: 140px;
+        font-size: 16px;
       }
 }

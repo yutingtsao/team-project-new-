@@ -143,7 +143,7 @@ body{
   
 }
 .left_area h2:nth-child(1){
- font-size: 24px;
+ /* font-size: 24px; */
  position: absolute;
  left: 80px;
  top: 60px;
@@ -151,7 +151,7 @@ body{
 }
 
 .left_area h2:nth-child(2){
-  font-size: 24px;
+  /* font-size: 24px; */
   position: absolute;
   left: 65px;
   top: 112px;
