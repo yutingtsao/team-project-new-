@@ -30,6 +30,7 @@
     .section1 h1 {
         font-size: 24px; 
         left: 400px;
+        text-align: center;
         /* 左減-178*/
     }
 
@@ -96,6 +97,54 @@
 }
 
 @media screen and (max-width:430px){
+    .hole_page{
+        width: 100%;
+        /* 寬1280 */
+      }
     
+     /* 中間內容 */
+     .middleContainer{
+        width: 100%;
+        /* 寬1280 */
+    }
 
+    .section1 h1 {
+        border-left: none;
+        width: 430px;
+        font-size: 24px; 
+        left: 0;
+        top: 160px;
+        padding:0;
+    }
+
+    /* 外框 */
+    .section2{
+        width: 90%;
+        height: 450px;
+        left: 0;
+        top: 250px;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 21.5px;
+    }
+
+    /* 內框 */
+    .outside{
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        left: 0;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        grid-template-rows:180px 235px;
+        /* box-sizing: border-box; */
+    }
+
+    .left_area{
+        border-right: none;
+        border-bottom: 2px dashed #CFAD84;
+        width: 100%;
+      }
 }
