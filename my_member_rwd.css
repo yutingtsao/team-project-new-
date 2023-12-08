@@ -69,8 +69,9 @@
     }
     
     .bread{
-        left: 104px;
-        font-size: 18px;
+        display: none;
+        /* left: 60px;
+        font-size: 18px; */
         /* 左減-70,文字20->18 */
     }
 
@@ -82,30 +83,19 @@
 
     .section1 h1 {
         font-size: 24px; 
-        left: 400px;
-        /* 左減-178*/
+        left: 60px;
+        /* 左減-428*/
     }
 
     /* 外框 */
     .section2{
         width: 694px;
-        /* height: 355px; */
-        left: 420px;
-        /* 寬高-30,左減-178*/
+        left: 60px;
     }
-  
-  /* 內框 */
-    .outside{
-        width: 664px;
-        /* height: 320px; */
-        /* 寬高-30 */
-    }
+     
+}
 
-    .bt3{
-        
-        left: 260px;
-        top: 37px;
-        /* 左-30 */
-    }
+@media screen and (max-width:430px){
     
+
 }
