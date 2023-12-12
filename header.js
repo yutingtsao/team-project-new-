@@ -1,8 +1,26 @@
+$(function(){
+
+    $('.menu_list').click(function(){
+      $('.menu_mask').css({'display':'block',});
+    })
+    $('.close').click(function(){
+      $('.menu_mask').removeAttr('style');
+    })
+    $('.menu_mask').click(function(){
+      $(this).removeAttr('style');
+    })
+    $('.menu_popup').click(function(e){
+      e.stopPropagation();
+    })
+  
+})
+
 //  登入
  // 按下按鈕可以打開小視窗
  $(function(){
     $('.login_bt').click(function(){
         $('.mask_login').css('display','block')
+        $('.menu_mask').css('display','none')
     })
         // 按下x可以關閉小視窗
         $('.bi.bi-x').click(function(){
@@ -156,6 +174,7 @@ $(function(){
     $('.register_bt').click(function(){
         $('.mask_register').css('display','block')
         $('.mask_login').css('display','none')
+        $('.menu_mask').css('display','none')
     })
         // 按下x可以關閉小視窗
         $('.bi.bi-x').click(function(){
